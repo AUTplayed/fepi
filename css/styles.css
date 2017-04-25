@@ -1,0 +1,22 @@
+.container{
+    align-content: center;
+    align-items: center;
+}
+.card{
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+}
+.tabs{
+    /*margin-left:75% !important;*/
+    position: absolute !important;
+    right:0px !important;
+    width: 20% !important;
+
+}
+.brand-logo{
+    align-content: center;
+    margin-left:2% !important;
+}
+body {
+    background-color: #fcfcfc;
+}

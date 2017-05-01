@@ -2,20 +2,20 @@
     align-content: center;
     align-items: center;
 }
-.card{
-    margin-left: 15% !important;
-    margin-right: 15% !important;
+.col{
+    margin: auto !important;
+    margin-top: 10px !important;
+    float:none !important;
 }
 .tabs{
-    /*margin-left:75% !important;*/
     position: absolute !important;
     right:0px !important;
-    width: 20% !important;
-
+    
 }
-.brand-logo{
-    align-content: center;
-    margin-left:2% !important;
+@media screen and (min-width: 990px) {
+    .tabs{
+        width: 20% !important;
+    }
 }
 body {
     background-color: #fcfcfc;
